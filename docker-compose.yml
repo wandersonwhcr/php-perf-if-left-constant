@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  php:
+    image: "php:8.0-cli-alpine"
+    volumes:
+      - ".:/app"
+    working_dir: "/app"
+    entrypoint: ["php"]
