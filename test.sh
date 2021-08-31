@@ -2,7 +2,7 @@
 
 set -xe
 
-TOTAL=2
+TOTAL=100
 
 L=""
 R=""
